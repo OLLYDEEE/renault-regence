@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 import { FaAngleDown } from "react-icons/fa";
 const First = () => {
   return (
-    <div className="flex  items-center max-w-full[1440px] mx-10">
+    <div className="flex  items-center max-w-full[1440px] mx-16 pb-3">
       <div className="flex justify-between w-full pt-[10px]">
         <div className="flex justify-center items-center gap-3">
           <h1 className="text-[13px]">Regiao</h1>
@@ -20,7 +20,7 @@ const First = () => {
           </div>
         </div>
         <div className="">
-          <Image src={logo} alt="" />
+          <Image src={logo} alt="logo" />
         </div>
       </div>
     </div>
