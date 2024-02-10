@@ -22,22 +22,48 @@ const Hero = () => {
       {/* Table */}
       <div className="bg-[#FDB414] mt-4 max-w-[980px]  w-flex">
         {/* 1 */}
-    <div className=" flex space-x-1  ">
-        <div className="bg-white w-[240px] text-[#495057] pr-[10px] flex justify-between items-center pl-[7px] py-[10px] ml-1 my-1">
-            <p className="text-[14px]">Qual o carro?</p>
-            <FaChevronDown className="text-[14px]" />
+    <div className=" flex space-x-1 ">
+        <div className="bg-white w-[240px] text-[#495057]  py-[10px] flex justify-between items-center   ml-1 my-1">
+                        <select name="name" id="#" className="text-[14px] text-[#495057] border-none outline-none w-full h-full ">
+              <option value="pernambuco" className=" text-[13px] ">Qual o carro?</option>
+              <option value="ceara" className="text-[13px]">Kwid</option>
+              <option value="ceara" className="text-[13px]">Kwid E-TECH</option>
+              <option value="ceara" className="text-[13px]">Stepway</option>
+              <option value="ceara" className="text-[13px]">Kangoo E-TECH</option>
+              <option value="ceara" className="text-[13px]">Logan</option>
+              <option value="ceara" className="text-[13px]">Duster</option>
+              <option value="ceara" className="text-[13px]">Oroch</option>
+              <option value="ceara" className="text-[13px]">MASTER Chassi</option>
+              <option value="ceara" className="text-[13px]">MASTER Furgão</option>
+              <option value="ceara" className="text-[13px]">Minubus</option>
+              <option value="ceara" className="text-[13px]">Megane E-tech</option>
+              
+             </select>
         </div>
-        <div className="bg-white w-[240px] text-[#495057] pr-[10px] flex justify-between items-center pl-[7px] py-[10px]  my-1">
-            <p className="text-[14px]">Qual a loja?</p>
-            <FaChevronDown className="text-[14px]" />
+
+        <div className="bg-white w-[240px] text-[#495057] py-[10px] flex justify-between items-center   ml-1 my-1">
+                         <select name="name" id="#" className="text-[14px] text-[#495057] border-none outline-none w-full h-full ">
+              <option value="pernambuco" className=" text-[13px] ">Qual a loja?</option>
+              <option value="ceara" className="text-[13px]">Av Norte</option>
+              <option value="ceara" className="text-[13px]">Caxangá</option>
+              <option value="ceara" className="text-[13px]">Caruaru</option>
+             </select>
         </div>
-        <div className="bg-white w-[240px] text-[#495057] pr-[10px] flex justify-between items-center pl-[7px] py-[10px]  my-1">
-            <p className="text-[14px]">Como prefere o contato?</p>
-            <FaChevronDown className="text-[14px]" />
+        
+      <div className="bg-white w-[240px] text-[#495057] py-[10px] flex justify-between items-center   ml-1 my-1">
+                         <select name="name" id="#" className="text-[14px] text-[#495057] border-none outline-none w-full h-full ">
+              <option value="pernambuco" className=" text-[13px] ">Como prefere o contato?</option>
+              <option value="ceara" className="text-[13px]">Por WhatsApp</option>
+              <option value="ceara" className="text-[13px]">Por Telefone</option>
+             </select>
         </div>
-        <div className="bg-white w-[240px] text-[#495057] pr-[10px] flex justify-between items-center pl-[7px] py-[10px]  my-1">
-            <p className="text-[14px]">Quando pretende comprar?</p>
-            <FaChevronDown className="text-[14px]" />
+        <div className="bg-white w-[240px] text-[#495057] py-[10px] flex justify-between items-center   ml-1 my-1">
+                         <select name="name" id="#" className="text-[14px] text-[#495057] border-none outline-none w-full h-full ">
+              <option value="pernambuco" className=" text-[13px] ">Quando pretende comprar?</option>
+              <option value="ceara" className="text-[13px]">Agora!</option>
+              <option value="ceara" className="text-[13px]">Em até 30 dias</option>
+              <option value="ceara" className="text-[13px]">Em 3 meses ou mais</option>
+             </select>
         </div>
     </div>
     {/* 2 */}

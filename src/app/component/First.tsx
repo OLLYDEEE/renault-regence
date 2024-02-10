@@ -8,16 +8,15 @@ const First = () => {
       <div className="flex justify-between w-full pt-[10px]">
         <div className="flex justify-center items-center gap-3">
           <h1 className="text-[13px]">Regiao</h1>
-          <div className="">
-            <div className="flex justify-center items-center gap-1 bg-gray-100 px-2 py-1 border border-[#ced4da] rounded-md">
-              <p className="text-[13px]">PERNAMBUCO</p>
-              <FaAngleDown className="font-normal" />{" "}
+                      <div className="flex justify-center items-center gap-1  ">
+             <select name="name" id="#" className="px-2 text-[13px] font-[300] outline-none py-1 rounded-md border border-blue-400 focus:border-[2px] focus:border-[#ffc107]  bg-gray-100">
+              <option value="pernambuco" className="text-[13px] ">PERNAMBUCO</option>
+              <option value="ceara" className="text-[13px]">CEARÁ</option>
+             </select>
+              
             </div>
-            <div className="bg-gray-100 hidden justify-center items-center flex-col ">
-            <p className="text-[13px] hover:bg-blue-800 ">PERNAMBUCO</p>
-            <p className="text-[13px]">PERNAMBUCO</p>
-            </div>
-          </div>
+            
+          
         </div>
         <div className="">
           <Image src={logo} alt="logo" />
