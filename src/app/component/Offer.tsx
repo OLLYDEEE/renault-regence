@@ -22,7 +22,7 @@ const Offer = () => {
      <div className="flex flex-1  items-start justify-center flex-wrap gap-5">
       {/* 1 */}
      <div className="mt-10 flex">
-        <div className="h-auto w-[250px] pb-10">
+        <div className="h-auto w-[280px] pb-10">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -55,7 +55,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -89,7 +89,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -124,7 +124,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -159,7 +159,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -194,7 +194,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -225,7 +225,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
@@ -259,7 +259,7 @@ pr-[10px] flex justify-center items-center pl-[7px] py-4 mb-2">MAIS DETALHES</bu
       </div>
 
       <div className="mt-10 flex items-start ">
-        <div className="h-auto w-[250px] ">
+        <div className="h-auto w-[280px] ">
           <div className="w-full h-full rounded-md flex flex-col items-center px-2 border space-y-12">
             <div className="bg-[#DC3545] px-2 py-[2px] flex mt-4 rounded-xl items-center gap-1  text-white justify-center">
               <FaRegClock className="font-light" />
