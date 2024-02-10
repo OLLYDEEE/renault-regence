@@ -8,6 +8,7 @@ import Car from './component/Car'
 import Testimonial from './component/Testimonial'
 import Contact from './component/Contact'
 import Footer from './component/Footer'
+import Service from './component/Service'
 
 const page = () => {
   return (
@@ -21,6 +22,7 @@ const page = () => {
       <Testimonial/>
       <Contact/>
       <Footer/>
+      <Service/>
     </>
   )
 }
