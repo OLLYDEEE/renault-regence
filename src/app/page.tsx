@@ -4,6 +4,7 @@ import Navbar from './component/Navbar'
 import Hero from './component/Hero'
 import Slider from './component/Slider'
 import Offer from './component/Offer'
+import Car from './component/Car'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <Hero/>
       <Slider/>
       <Offer/>
+      <Car/>
     </>
   )
 }
