@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import foot4 from '../assets/foot4.png'
+import foot4 from '../../assets/foot4.png'
 const Service = () => {
   return (
     <div  className='flex justify-center items-center mx-[64px] flex-col gap-4 mb-8'>

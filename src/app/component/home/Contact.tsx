@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import alogo from "../assets/alogo.png";
+import alogo from "../../assets/alogo.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaRegClock } from "react-icons/fa6";

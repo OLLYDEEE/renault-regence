@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from "next/image";
-import foot from '../assets/foot.png'
-import foot2 from '../assets/foot2.png'
-import foot3 from '../assets/foot3.png'
+import foot from '../../assets/foot.png'
+import foot2 from '../../assets/foot2.png'
+import foot3 from '../../assets/foot3.png'
 
 const Footer = () => {
   return (
