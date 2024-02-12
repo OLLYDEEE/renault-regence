@@ -9,6 +9,7 @@ import Testimonial from './component/home/Testimonial'
 import Contact from './component/home/Contact'
 import Footer from './component/home/Footer'
 import Service from './component/home/Service'
+import ImageSlider from './component/home/ImageSlider'
 
 const page = () => {
   return (
@@ -16,10 +17,11 @@ const page = () => {
       <First/>  
       <Navbar/>
       <Hero/>
-      <Slider/>
+      {/* <Slider/> */}
+      <ImageSlider/>
       <Offer/>
       <Car/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       {/* <Contact/> */}
       <Footer/>
       <Service/>

@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
     </div>
     {/* 2 */}
-    <div className="flex flex-col space-x-1">
+    <div className="flex flex-col lg:flex-row space-x-1">
     <div className="bg-white ml-1 w-full lg:w-[240px] text-[#495057] pr-[10px] flex items-center pl-[7px] py-[10px] mb-1">
             <p className="text-[14px]">Seu nome</p>            
         </div>

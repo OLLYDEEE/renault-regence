@@ -4,7 +4,7 @@ import Image from 'next/image'
 import foot4 from '../../assets/foot4.png'
 const Service = () => {
   return (
-    <div  className='flex justify-center items-center mx-[64px] flex-col gap-4 mb-8'>
+    <div  className='flex justify-center items-center md:mx-[64px] flex-col gap-4 mb-8'>
         <div className=" text-center h-auto bg-[#DDDAD4] cursor-pointer hover:bg-[#DDDAD4]/40 mt-2 flex items-center gap-2 px-5 rounded-md py-1 justify-center">
 <p className="text-[12px] ">  Resolução 4571</p>
 </div>
