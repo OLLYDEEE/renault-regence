@@ -245,12 +245,29 @@ const Navbar = () => {
           >
             Seguros
           </Link>
-          <div className="flex justify-center items-center gap-1 cursor-pointer hover:text-white/70 text-[#F8F9FA]">
+          {/* <div className="flex justify-center items-center gap-1 cursor-pointer hover:text-white/70 text-[#F8F9FA]">
             <Link href="/" className="">
               Institucional
             </Link>
             <MdOutlineArrowDropDown />
-          </div>
+          </div> */}
+           <div className="flex items-start flex-col  justify-start  pb-3 relative ">
+                  <div  onClick={() => setToggle((prev) => !prev)}
+                  className="flex items-center justify-start gap-2 focus:text-[#cbd3da]">
+                 
+                  <Link href="/" className="">
+                    Institucional
+                  </Link>
+                  <MdOutlineArrowDropDown />
+                  </div>
+                  {toggle &&
+                  <div className=" flex-col items-start justify-center w-[205px] absolute px-4 py-2 gap-2 text-[#222222] bg-white rounded-lg flex">
+                  <Link href="/" className="text-[15px]">Quem Somos</Link>
+                  <Link href="/" className="text-[15px]">Quem Somos</Link>
+                  <Link href="/" className="text-[15px]">Quem Somos</Link>
+                </div>
+                  }
+                </div>
         </div>
 
         <div className="hidden cursor-pointer hover:text-white/70 text-[#F8F9FA] flex-col lg:flex justify-center items-center gap-1">

@@ -10,7 +10,8 @@ import Contact from './component/home/Contact'
 import Footer from './component/home/Footer'
 import Service from './component/home/Service'
 import ImageSlider from './component/home/ImageSlider'
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const page = () => {
   return (
     <>
