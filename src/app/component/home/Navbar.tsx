@@ -12,6 +12,7 @@ import { FaAngleLeft } from "react-icons/fa";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [toggle, setToggle] = useState(false);
   return (
     <div className="bg-[#222] max-w-[14440px] ">
       {/* 1 */}
@@ -24,7 +25,7 @@ const Navbar = () => {
 
             {/* Menu Icon */}
             <div
-              onClick={() => setOpen(true)}
+              onClick={() => setOpen((prev) => !prev)}
               className="flex text-[#ffffff80] text-[30px] border rounded-md border-[#ffffff1a] lg:hidden px-3 py-1"
             >
               <LiaBarsSolid className="text-gray-400" />
@@ -78,27 +79,27 @@ const Navbar = () => {
                     Carro por Assinatura
                   </Link>
                 </div>
-                
+
                 <div className="flex items-center gap-4 justify-start border-b w-full pb-3 border-white">
                   <FaAngleRight className="text-[10px]" />
                   <Link
                     href="/"
                     className="cursor-pointer text-[15px] hover:text-white/70 text-[#F8F9FA]"
                   >
-                                      Venda Direta
+                    Venda Direta
                   </Link>
                 </div>
-                
-                   <div className="flex items-center gap-4 justify-start border-b w-full pb-3 border-white">
+
+                <div className="flex items-center gap-4 justify-start border-b w-full pb-3 border-white">
                   <FaAngleRight className="text-[10px]" />
                   <Link
                     href="/"
                     className="cursor-pointer text-[15px] hover:text-white/70 text-[#F8F9FA]"
                   >
-                     Venda Governo
+                    Venda Governo
                   </Link>
                 </div>
-                
+
                 <div className="flex items-center gap-4 justify-start border-b w-full pb-3 border-white">
                   <FaAngleRight className="text-[10px]" />
                   <Link
@@ -117,8 +118,8 @@ const Navbar = () => {
                     Seguros
                   </Link>
                 </div>
-              {/* Later */}
-                <div className="flex items-center gap-4 justify-start border-b w-full pb-3 border-white">
+                {/* Later */}
+                {/* <div className="flex items-center gap-4 justify-start border-b w-full pb-3 border-white">
                   <FaAngleRight className="text-[10px]" />
                   <Link
                     href="/"
@@ -134,16 +135,33 @@ const Navbar = () => {
              
              </select>
                   </Link>
+                </div> */}
+
+                <div className="flex items-start flex-col  justify-start border-b  w-full pb-3 border-white">
+                  <div  onClick={() => setToggle((prev) => !prev)}
+                  className="flex items-center justify-start gap-4 focus:text-[#cbd3da]">
+                  <FaAngleRight className="text-[10px]" />
+                  <Link href="/" className="">
+                    Institucional
+                  </Link>
+                  <MdOutlineArrowDropDown />
+                  </div>
+                  {toggle &&
+                  <div className=" flex-col items-start justify-center w-full  px-4 py-2 gap-2 text-[#222222] bg-white rounded-lg flex">
+                  <Link href="/" className="text-[15px]">Quem Somos</Link>
+                  <Link href="/" className="text-[15px]">Quem Somos</Link>
+                  <Link href="/" className="text-[15px]">Quem Somos</Link>
                 </div>
+                  }
+                </div>
+
                 <div className="cursor-pointer hover:text-white/70 text-[#F8F9FA] flex justify-center items-center gap-1">
-          <FaInstagram className="text-[25px]" />
-          <Link href="/" className="">
-            Instagram
-          </Link>
-        </div>
-               
+                  <FaInstagram className="text-[25px]" />
+                  <Link href="/" className="">
+                    Instagram
+                  </Link>
+                </div>
               </div>
-              
             </div>
           )}
         </div>
@@ -170,7 +188,7 @@ const Navbar = () => {
       </div>
       {/* 2 */}
 
-      <div className=" space-x-6 px-10 pb-4 text-white flex justify-between">
+      <div className=" space-x-6 px-10 pb-4 text-white flex justify-between ">
         {/* 1 */}
         <div className="lg:flex items-center hidden gap-4">
           <Link
