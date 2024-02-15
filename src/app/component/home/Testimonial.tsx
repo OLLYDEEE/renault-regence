@@ -6,8 +6,8 @@ import test3 from '../../assets/test3.jpg'
 import Link from "next/link";
 const Testimonial = () => {
   return (
-    <div className="mt-20 mx-[64px] px[10px]">
-      <div className="flex items-center  gap-4">
+    <div className="mt-20 max-w-[540px] lg:max-w-[1220px] mx-auto px-[10px]">
+      <div className="flex flex-col md:flex-row gap-4 w-fit mx-auto">
         <div className="">
           <Image src={test1} alt="" className=""/>
           <Link href="/" className="py-4 flex flex-col  cursor-pointer hover:underline items-start justify-center px-6">

@@ -12,15 +12,14 @@ import car8 from "../../assets/car8.png"
 
 const Offer = () => {
   return (
-    <div className=" mx-2 mt-10 cursor-pointer">
-      <div className="flex justify-center items-center ">
-        <h1 className="text-[22px] md:text-[28px] text-center  font-[600]">
+    <div className=" mx-2 mt-10">
+      <div className="flex justify-center items-center">
+        <h1 className="text-[22px] md:text-[28px] text-center font-[600]">
           Ofertas especiais para <span className="font-bold ">você</span>
         </h1>
       </div>
      
-     <div className="flex  items-start justify-start md:justify-center flex-wrap gap-1 md:gap-5">
-      {/* 1 */}
+     <div className="grid grid-cols-2 lg:grid-cols-3 gap-1 md:gap-5 w-fit mx-auto justify-items-center">
      <div className="mt-10 flex">
         <div className="h-auto w-[150px] md:w-[228px] pb-10">
           <div className="w-full h-full rounded-md flex flex-col items-center md:px-2 border">
