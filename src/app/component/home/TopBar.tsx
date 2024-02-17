@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 const TopBar = () => {
   return (
-    <div className="h-[50px] flex items-center px-[10px] w-[100%] max-w-[540px] lg:max-w-[1220px] mx-auto">
+    <div className="h-[50px] flex items-center container">
       <div className="flex justify-between items-center w-full">
         <div className="flex justify-center items-center gap-3">
           <h1 className="text-[13px]">Regiao</h1>

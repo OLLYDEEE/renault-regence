@@ -12,14 +12,14 @@ import list9 from "../../assets/list9.png";
 
 const Car = () => {
   return (
-    <div className="mt-20 max-w-[540px] lg:max-w-[1220px] mx-auto px-[10px] ">
+    <div className="mt-20 container">
       <div className="flex justify-center pt-10 mb-[48px]">
         <h1 className="text-[24px] text-center md:text-[28px] font-semibold font-sans ">
           Escolha o <span className=" font-bold">Renault</span> que combina com
           você
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-1 w-fit mx-auto">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-1 w-fit mx-auto">
         <div className="flex justify-center items-center flex-col gap-4 mb-4">
           <Image
             src={car5}

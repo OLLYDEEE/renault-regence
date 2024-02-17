@@ -16,11 +16,11 @@ const Hero = () => {
   };
 
   return (
-    <section id="offer" className="max-w-[540px] lg:max-w-[1220px] mx-auto px-[10px] py-[48px]">
+    <section id="offer" className="container pt-[24px] pb-[48px] md:py-[48px]">
       <div className="pb-4">
-        <div className="flex gap-2 lg:gap-4 items-start md:items-center pb-2">
-          <FaTag className="lg:text-[.975em] w-16 md:w-auto  text-[25px]" />
-          <h1 className="text-[22px] font-bold">
+        <div className="flex  items-start md:items-center ">          
+          <h1 className="text-[22px] leading-[1.2]  font-bold">
+          <FaTag className="lg:text-[15px] inline-block h-[15px] text-[25px]" />
             {" "}
             Receba uma <span className="text-[#DC3545]">
               oferta exclusiva
@@ -61,11 +61,11 @@ const Hero = () => {
                   }));
                 }}
                 id="modelo"
-                className="form-control"
+                className="form-control text-[14px]"
                 data-parsley-required=""
                 data-parsley-errors-messages-disabled=""
               >
-                <option value="">Qual o carro?</option>
+                <option value="" className="">Qual o carro?</option>
                 <option value="Kwid" data-slug="kwid">
                   Kwid
                 </option>
@@ -125,7 +125,7 @@ const Hero = () => {
               </select>
             </div>
           </div>
-          <div className="w-full lg:w-[calc(25%-4px)] bg-white h-[40px]">
+          <div className="w-full text-[14px] lg:w-[calc(25%-4px)] bg-white h-[40px]">
             <select
               title="lkasdjfsdl"
               name="preferencia"
