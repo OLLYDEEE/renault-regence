@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="bg-[#222]">
         <div className="container">
           <div className="flex justify-between items-end md:min-h-[80px] py-6 md:py-0 md:pt-10">
-            <div className="w-full lg:w-auto">
+            <div className="w-full md:mb-6 lg:w-auto">
               <div className="flex items-center justify-between lg:w-auto w-full">
                 <div className="flex justify-start items-center max-h-[40px] md:max-h-[50px]">
                   <Image src={alogo} alt="alogo" className="object-contain h-[40px] md:h-[50px] w-auto" />
@@ -41,7 +41,7 @@ const Navbar = () => {
                 {/* Menu Icon */}
                 <div
                   onClick={() => setOpen((prev) => !prev)}
-                  className="flex text-[#ffffff80] text-[30px] border rounded-md border-[#ffffff1a] lg:hidden px-3 py-1"
+                  className="flex text-[#ffffff80] text-[30px] border cursor-pointer rounded-md border-[#ffffff] lg:hidden px-3 py-1"
                 >
                   <LiaBarsSolid className="text-gray-400" />
                 </div>
@@ -140,7 +140,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex items-start flex-col  justify-start border-b  w-full pb-3 border-white">
-                      <div
+                    <div
                         onClick={() => setToggle((prev) => !prev)}
                         className="flex items-center justify-start gap-4 focus:text-[#cbd3da]"
                       >
@@ -151,15 +151,15 @@ const Navbar = () => {
                         <MdOutlineArrowDropDown />
                       </div>
                       {toggle && (
-                        <div className=" flex-col items-start justify-center w-full  px-4 py-2 gap-2 text-[#222222] bg-white rounded-lg flex">
-                          <Link href="/" className="text-[15px]">
+                        <div className=" flex-col items-start justify-center w-full mx-4   py-3 gap-2 text-[#222222] bg-white rounded-lg flex">
+                          <Link href="/" className="text-[15px] w-full px-4 py-[2px] hover:bg-[#e5e7eb]">
                             Quem Somos
                           </Link>
-                          <Link href="/" className="text-[15px]">
-                            Quem Somos
+                          <Link href="/" className="text-[15px] w-full px-4 py-[2px] hover:bg-[#e5e7eb]">
+                          Trabalhe Conosco
                           </Link>
-                          <Link href="/" className="text-[15px]">
-                            Quem Somos
+                          <Link href="/" className="text-[15px] w-full px-4 py-[2px] hover:bg-[#e5e7eb]">
+                          Seja Nosso Fornecedor
                           </Link>
                         </div>
                       )}
@@ -272,7 +272,7 @@ const Navbar = () => {
                 </div>
 
                 {toggle && (
-                  <div className="flex-col items-start justify-center w-[205px] absolute top-full px-4 py-2 gap-2 text-[#222222] bg-white rounded-lg flex">
+                  <div className="flex-col items-start justify-center w-[205px] border absolute top-[150%] xl:top-full px-4 py-3 gap-2 text-[#222222] bg-white rounded-lg flex">
                     <Link href="/" className="text-[15px]">
                       Quem Somos
                     </Link>
